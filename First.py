@@ -63,7 +63,7 @@ def login():
 
         return redirect(url_for("login"))
 
-    return render_template("log.html")
+    return render_template("login.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
